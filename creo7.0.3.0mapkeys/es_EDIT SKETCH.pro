@@ -1,0 +1,58 @@
+﻿mapkey es @MAPKEY_NAMEEdits sketch for selected Sketch,Extrude,Revolve,\
+Sweep,HelicalSweep,\n VolumeHelicalSweep,SweptBlend,Blend,RotationalBlend,Wrap,;\
+@MAPKEY_LABEL[es]EDIT SKETCH;\
+! Edits sketch for selected Sketch,Extrude,Revolve,Sweep,HelicalSweep,;\
+! VolumeHelicalSweep,SweptBlend,Blend,RotationalBlend,Wrap,;\
+! Trajectory Rib, Profile Rib;\
+;\
+! Edit Definition default shortcut ctrl+e;\
+~ Command `ProCmdRedefine`;\
+;\
+! Extrude- opens placement tab;\
+~ Activate `main_dlg_cur` `chkbn.extrev_1_placement.0` 1;\
+;\
+! Extrude- selects edit sketch in placement tab;\
+~ Activate `extrev_1_placement.1.0` `PH.Sketch`;\
+;\
+! Revolve- opens placement tab;\
+~ Activate `main_dlg_cur` `chkbn.revolve_1_placement.0` 1;\
+;\
+! Revolve- selects edit sketch in placement tab;\
+~ Activate `revolve_1_placement.1.0` `PH.Sketch`;\
+;\
+! Sweep- selects edit sketch on the ribbon;\
+~ Activate `main_dlg_cur` `maindashInst0.Sketch`;\
+;\
+! Helical Sweep- selects edit sketch on the ribbon;\
+~ Activate `main_dlg_cur` `maindashInst0.int_sketch`;\
+;\
+! Volume H Sweep- opens section tab;\ 
+~ Activate `main_dlg_cur` `chkbn.swp3d_section.0` 1;\
+;\
+! Volume H Sweep- opens sketch;\
+~ Activate `swp3d_section.1.0` `PH.DepSketch`;\
+;\
+! Trajectory Rib- opens placement tab;\
+~ Activate `main_dlg_cur` `chkbn.plrib_settings.0` 1;\
+;\
+! Trajectory Rib- selects edit sketch in placement tab;\
+~ Activate `plrib_settings.1.0` `PH.sketchrepresentator_btn`;\
+;\
+! Profile Rib- opens references tab;\
+~ Activate `main_dlg_cur` `chkbn.rib_refs.0` 1;\
+;\
+! Profile Rib- selects edit sketch;\
+~ Activate `rib_refs.1.0` `PH.Sketch`;\
+;\
+! Orient to sketching plane;\
+~ Command `ProCmdViewSketchView`;\
+;\
+! Sweep Blend- open the sketch select and edit menu;\
+~ Activate `main_dlg_cur` `chkbn.swpbln_sections_panel.0` 1;\
+;\
+! Blend and Rot. Blend- open the sketch select and edit menu;\
+~ Activate `main_dlg_cur` `chkbn.blend_sectionspage.0` 1;\
+;\
+! Zoom Refit;\
+~ Command `ProCmdViewRefit`;
+!
