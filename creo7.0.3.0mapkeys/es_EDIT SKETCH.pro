@@ -53,6 +53,7 @@ Sweep,HelicalSweep,\n VolumeHelicalSweep,SweptBlend,Blend,RotationalBlend,Wrap,;
 ! Blend and Rot. Blend- open the sketch select and edit menu;\
 ~ Activate `main_dlg_cur` `chkbn.blend_sectionspage.0` 1;\
 ;\
-! Zoom Refit;\
-~ Command `ProCmdViewRefit`;
+! Zoom Refit and then if available zoom to selected;\
+~ Command `ProCmdViewRefit`;\
+~ Command `ProCmdZoomIntoOutline`;
 !
