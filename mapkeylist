@@ -1,0 +1,45 @@
+A list of Mapkey ideas
+
+Import config file
+Open mapkey manager
+Edit sketch
+datums view turn all off
+datums view toggle each type
+parameters import from file and replace existing of same name
+transparency toggle
+erase not displayed
+display status save
+parameters add from mapkey
+relation add from mapkey
+relation post regen add from mapkey
+mass properties update
+Circular balloon add
+Make Flexible
+Show varied items of flexible part
+white background for pictures
+Users background seetting
+make and view xsec in selected plane
+enable and view xsec
+toggle windchill
+insert here (below selection)
+turn off xsections
+next section view
+generate views based on front view
+orient to front
+orient to back
+orient to right
+orient to left
+orient to top
+orient to bottom
+Orient to iso
+drw shade a view
+drw set line type of view to no hidden no tangent
+drw set line type of view to dimmed
+set dim to 4 decimal places
+set tol to +-0.05
+set tol to +-0.25
+set tol to +-0.12
+set tol to +-0.005
+make clean gtol
+
+
