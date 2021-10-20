@@ -1,4 +1,4 @@
-﻿mapkey !! @MAPKEY_LABEL[!!]Load Mapkey from file;\
+﻿mapkey !! @MAPKEY_LABEL[!!]Import Config File;\
 ! Opens file>options>configurations editor>import;\
 ! Replace the default dir "C:\\Users\\user" with your choice;\
 ;\
