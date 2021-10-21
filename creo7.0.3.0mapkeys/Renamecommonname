@@ -1,0 +1,6 @@
+mapkey $F9 @MAPKEY_LABEL[]Rename Common Name;\
+mapkey(continued) ~ Command `ProCmdModelRename` ;\
+mapkey(continued) ~ Select `rename` `RadioGroup1` 1 `session_only`;\
+mapkey(continued) @MANUAL_PAUSE1. Confirm COMMON NAME is correct/the same as prt/asm.\n\
+mapkey(continued) If not editable rename in Windchill/PDM\n2. Click RESUME;\
+mapkey(continued) ~ Activate `rename` `OK`;
