@@ -3,8 +3,11 @@ A list of Mapkey ideas
 Import config file
 Open mapkey manager
 Edit sketch
+accept edit sketch
+cancel edit sketch
 datums view turn all off
 datums view toggle each type
+datum tags toggle
 parameters import from file and replace existing of same name
 transparency toggle
 erase not displayed
@@ -20,10 +23,11 @@ white background for pictures
 Users background seetting
 make and view xsec in selected plane
 enable and view xsec
-toggle windchill
-insert here (below selection)
 turn off xsections
 next section view
+flip cross section
+toggle windchill (last connected and no server)
+insert here (below selection)
 generate views based on front view
 orient to front
 orient to back
@@ -36,10 +40,50 @@ drw shade a view
 drw set line type of view to no hidden no tangent
 drw set line type of view to dimmed
 set dim to 4 decimal places
-set tol to +-0.05
 set tol to +-0.25
 set tol to +-0.12
+set tol to +-0.05
 set tol to +-0.005
+add 2x to dimension annotation
+flip dimension arrows
+switch leader arrow on radius
+dimension type nominal only
+dimension type basic
 make clean gtol
+hide selected dimension
+preselection highlight toggle
+internet browser toggle
+smart filter smart
+smart filter geometry
+smart filter edge
+smart filter axis
+regen save and upload
+modelcheck run
+hide selected
+unhide selects
+unhide all
+hide all
+open base model of selected
+high quality display settings
+low quality display settings
+model accuracy absolute 0.001 (when metric 1 micron)
+model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
+open drawing for active part/drw with same name
+hide layers
+show layers
+create A0 drw of active
+create A1 drw of active
+create A2 drw of active
+create A3 drw of active
+create A4 drw of active
+clear all DTL and import dtl from file
+open part
+open drawing
+open asm
+grid snap toggle
+grid visible
+grid size 10 units
+grid size 5 units
+grid size 1 unit
 
 
