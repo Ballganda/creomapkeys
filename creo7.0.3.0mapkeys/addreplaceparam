@@ -1,0 +1,41 @@
+mapkey $F7 @MAPKEY_LABEL[]Add/Replace Parameter;\
+! Example of adding a parameter to model. ;\
+! Replace "YOUR_PARAM_NAME" with the name of your choice. ;\
+! Set Param types integer `int`, string `string`, real number `double`, ;\
+! yes/no `bool` ;\
+! Set the value to an appropriate term for the param type ;\
+;\
+! Opens relations and param dialog and open param area ;\
+mapkey(continued) ~ Command `ProCmdMmRels` ;\
+mapkey(continued) ~ Activate `relation_dlg` `CBLocalParams` 1;\
+;\
+! Delete a param of the same name you are trying to add first ;\
+! Use only if you want to replace params ;\
+! Be careful with this. These two lines can be removed to have the mapkey error out instead ;\
+! if a param with same name already exists. If driven by relation it cannot be deleted ;\
+! or updated. Would have to work around with temp removal of relations ;\
+mapkey(continued) ~ Select `relation_dlg` `ParamsPHLay.ParTable` 2 `rowYOUR_PARAM_NAME` `name`;\
+mapkey(continued) ~ Activate `relation_dlg` `ParamsPHLay.TBDelParam`;\
+;\
+! add the new param and name it. Backspace Key used to get location for next command;\
+mapkey(continued) ~ Activate `relation_dlg` `ParamsPHLay.TBAddParam`;\
+mapkey(continued) ~ Key `relation_dlg` `ParamsPHLay.ParTable` 524296 `Bkspce`;\
+mapkey(continued) ~ Update `relation_dlg` `ParamsPHLay.ParTable_INPUT` `YOUR_PARAM_NAME`;\
+;\
+! Select the type of parameter cell;\
+mapkey(continued) ~ Select `relation_dlg` `ParamsPHLay.ParTable` 2 `new_added_row` `type`;\
+;\
+;\
+! BELOW NEEDS TO BE SET TO THE TYPE YOU WANT ;\
+! SET the parameter type;\
+mapkey(continued) ~ Select `relation_dlg` `ParamsPHLay.ParTable_INPUT` 1 `bool`;\
+;\
+;\
+! select the value cell ;\
+mapkey(continued) ~ Select `relation_dlg` `ParamsPHLay.ParTable` 2 `rowYOUR_PARAM_NAME` `value`;\
+;\
+;\
+! BELOW NEEDS TO BE SET TO THE VALUE YOU WANT ;\
+! Set the value and confirm the change ;\
+mapkey(continued) ~ Update `relation_dlg` `ParamsPHLay.ParTable_INPUT` `no`;\
+mapkey(continued) ~ Activate `relation_dlg` `PB_OK`;
