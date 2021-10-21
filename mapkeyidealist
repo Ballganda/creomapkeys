@@ -36,6 +36,9 @@ orient to left
 orient to top
 orient to bottom
 Orient to iso
+tmp_view
+orient to tmp_view
+delete tmp_view
 drw shade a view
 drw set line type of view to no hidden no tangent
 drw set line type of view to dimmed
@@ -44,9 +47,13 @@ set tol to +-0.25
 set tol to +-0.12
 set tol to +-0.05
 set tol to +-0.005
+set 3 decimal
+set 2 decimal
+set 1 decimal
 add 2x to dimension annotation
-flip dimension arrows
-switch leader arrow on radius
+flip dimension arrows inside outside
+flip leader side
+cycle through leader arrow on radius
 dimension type nominal only
 dimension type basic
 make clean gtol
@@ -80,10 +87,27 @@ clear all DTL and import dtl from file
 open part
 open drawing
 open asm
-grid snap toggle
-grid visible
-grid size 10 units
-grid size 5 units
-grid size 1 unit
+grid snap toggle sketcher and drawing modes
+grid visible sketcher and drawing modes
+grid size 10 units sketcher and drawing modes
+grid size 5 units sketcher and drawing modes
+grid size 1 unit sketcher and drawing modes
+zoom to selected
+zoom refit
+zoom previous
+add center of gravity point in model
+add starter drawing note
+add to drawing note from file
+add prt layers
+add asm layers
+create bom
+creat bom item number balloon
+use item num param from model instead of default item number
+use default item number in bom
+
+
+
+
+
 
 
