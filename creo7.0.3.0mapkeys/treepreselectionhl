@@ -1,0 +1,8 @@
+mapkey $F9 @MAPKEY_LABEL[]Tree Preselection Toggle;\
+! Tree preselection highlighting ;\
+;\
+! Select the show menu on the model tree;\
+~ Select `main_dlg_cur` `PHTLeft.ShowCB`;\
+;\
+! Select the check box without value assignment 0 1 ;\
+~ Activate `main_dlg_cur` `PreHighlightChkBtn`;
