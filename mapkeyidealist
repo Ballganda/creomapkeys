@@ -15,7 +15,7 @@ display status save
 parameters add from mapkey
 relation add from mapkey
 relation post regen add from mapkey
-mass properties update
+mass properties auto update/by request toggle 
 Circular balloon add
 Make Flexible
 Show varied items of flexible part
