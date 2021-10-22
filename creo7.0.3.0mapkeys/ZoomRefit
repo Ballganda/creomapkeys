@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Zoom Refit;\
+~ Command `ProCmdViewRefit`;
