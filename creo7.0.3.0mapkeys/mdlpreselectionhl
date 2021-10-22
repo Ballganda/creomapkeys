@@ -1,0 +1,12 @@
+mapkey $F9 @MAPKEY_LABEL[]Preselection Highlight Toggle;\
+! Toggle the preselection highlighting in the graphics window;\
+;\
+! open the options dialog and navigate to the selection page;\
+~ Command `ProCmdRibbonOptionsDlg` ;\
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `Sel_prefs`;\
+;\
+! Toggle the selection my selecting the checkbox without assigning value 0 1 ;\
+~ Activate `ribbon_options_dialog` `Sel_prefs.PrehButton`;\
+;\
+! Leave options dialog by selecting ok ;\
+~ Activate `ribbon_options_dialog` `OkPshBtn`;
