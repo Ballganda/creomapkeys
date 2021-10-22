@@ -1,33 +1,51 @@
 A list of Mapkey ideas
 
-Import config file
-Open mapkey manager
-Edit sketch
+MADE Import config file
+MADE Open mapkey manager
+MADE Edit sketch
+MADE preselection highlight toggle
+MADE tree preselection highlight toggle
+MADE parameters add/replace from mapkey
+zoom to selected
+zoom refit
+zoom previous
+transparency toggle
+erase not displayed
+display status save and save model
+display status reset
+mass properties auto update/by request toggle
+white background for pictures toggle to user background
+Users background setting
+insert mode here (below selection) toggle with cancel insert mode
+flip cross section
+internet browser toggle on off screen
+regen save and upload
+modelcheck run
+hide selected
+unhide selected
+unhide all except
+hide all except
+model accuracy absolute 0.001 (when metric 1 micron)
+model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
+model accuracy relative 0.0012 
+
+
 accept edit sketch
 cancel edit sketch
 datums view turn all off
 datums view toggle each type
 datum tags toggle
 parameters import from file and replace existing of same name
-transparency toggle
-erase not displayed
-display status save
-parameters add from mapkey
 relation add from mapkey
 relation post regen add from mapkey
-mass properties auto update/by request toggle 
 Circular balloon add
 Make Flexible
 Show varied items of flexible part
-white background for pictures
-Users background seetting
 make and view xsec in selected plane
 enable and view xsec
 turn off xsections
 next section view
-flip cross section
 toggle windchill (last connected and no server)
-insert here (below selection)
 generate views based on front view
 orient to front
 orient to back
@@ -58,23 +76,13 @@ dimension type nominal only
 dimension type basic
 make clean gtol
 hide selected dimension
-preselection highlight toggle
-internet browser toggle
 smart filter smart
 smart filter geometry
 smart filter edge
 smart filter axis
-regen save and upload
-modelcheck run
-hide selected
-unhide selects
-unhide all
-hide all
 open base model of selected
 high quality display settings
 low quality display settings
-model accuracy absolute 0.001 (when metric 1 micron)
-model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
 open drawing for active part/drw with same name
 hide layers
 show layers
@@ -92,9 +100,6 @@ grid visible sketcher and drawing modes
 grid size 10 units sketcher and drawing modes
 grid size 5 units sketcher and drawing modes
 grid size 1 unit sketcher and drawing modes
-zoom to selected
-zoom refit
-zoom previous
 add center of gravity point in model
 add starter drawing note
 add to drawing note from file
@@ -104,10 +109,3 @@ create bom
 creat bom item number balloon
 use item num param from model instead of default item number
 use default item number in bom
-
-
-
-
-
-
-
