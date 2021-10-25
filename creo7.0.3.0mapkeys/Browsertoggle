@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Browser Toggle;\
+~ Activate `main_dlg_cur` `BrowserOpenCloseChkBtn`;
