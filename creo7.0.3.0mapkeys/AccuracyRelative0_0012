@@ -1,0 +1,7 @@
+mapkey $F9 @MAPKEY_LABEL[]Accuracy Relative 0.0012;\
+~ Command `ProCmdMmModelProperties` ;\
+~ Activate `mdlprops_dlg` `ACCURACY_lay_Controls.push_Change.lay_instance`;\
+~ Select `setup_accuracy_dlg` `cmb_Type_Choose` 1 `item_relat`;\
+~ Update `setup_accuracy_dlg` `cmb_RelAbs_Enter` `0.0012`;\
+~ Activate `setup_accuracy_dlg` `pushbt_OK`;\
+~ Activate `mdlprops_dlg` `DlgClose_push`;
