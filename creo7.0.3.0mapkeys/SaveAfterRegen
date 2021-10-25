@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]Save After Regen;\
+~ Command `ProCmdRegenPart` ;\
+~ Command `ProCmdModelSave`;
