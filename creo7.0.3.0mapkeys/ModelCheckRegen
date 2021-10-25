@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]ModelCheck Regen;\
+~ Command `ProCmdMCRegen`;
