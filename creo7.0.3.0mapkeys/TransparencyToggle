@@ -1,0 +1,6 @@
+mapkey $F9 @MAPKEY_LABEL[]Transparency Toggle;\
+~ Command `ProCmdRibbonOptionsDlg` ;\
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `DisplayLayout`;\
+~ Activate `ribbon_options_dialog` `DisplayLayout.transparency.lay_instance`;\
+~ Activate `ribbon_options_dialog` `DisplayLayout.ApplyBtn`;\
+~ Activate `ribbon_options_dialog` `OkPshBtn`;
