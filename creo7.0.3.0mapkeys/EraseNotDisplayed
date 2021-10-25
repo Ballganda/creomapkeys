@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]Erase Not Displayed;\
+~ Command `ProCmdModelEraseNotDisp` ;\
+~ Activate `file_erase_nd` `ok_pb`;
