@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Fullscreen Toggle;\
+~ Activate `main_dlg_cur` `FullScreenChkBtn`;
