@@ -12,25 +12,35 @@ MADE zoom refit
 MADE navigator(tree) toggle
 MADE Fullscreen mode toggle
 MADE orient previous
-transparency toggle
-erase not displayed
-display status save and save model
-display status reset
+MADE transparency toggle
+MADE erase not displayed
+MADE display status save and save model
+MADE display status reset
+MADE save after regen
+MADE modelcheck regen
+MADE model accuracy absolute 0.001 (when metric 1 micron)
+MADE model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
+MADE model accuracy relative 0.0012
+MADE open part
+MADE open all file types
+
+regen save and upload
+hide selected
+unhide selected
+unhide all except
+hide all except
+
+
+open drawing
+open asm
+open step
+open iges
+
 mass properties auto update/by request toggle
 white background for pictures toggle to user background
 Users background setting
 insert mode here (below selection) toggle with cancel insert mode
 flip cross section
-
-regen save and upload
-modelcheck run
-hide selected
-unhide selected
-unhide all except
-hide all except
-model accuracy absolute 0.001 (when metric 1 micron)
-model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
-model accuracy relative 0.0012 
 
 accept edit sketch
 cancel edit sketch
@@ -94,9 +104,6 @@ create A2 drw of active
 create A3 drw of active
 create A4 drw of active
 clear all DTL and import dtl from file
-open part
-open drawing
-open asm
 grid snap toggle sketcher and drawing modes
 grid visible sketcher and drawing modes
 grid size 10 units sketcher and drawing modes
