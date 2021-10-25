@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Orient Previous;\
+~ Command `ProCmdViewPrev`;
