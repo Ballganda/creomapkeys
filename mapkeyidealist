@@ -6,9 +6,12 @@ MADE Edit sketch
 MADE preselection highlight toggle
 MADE tree preselection highlight toggle
 MADE parameters add/replace from mapkey
-zoom to selected
-zoom refit
-zoom previous
+MADE zoom to selected
+MADE internet browser toggle on off screen
+MADE zoom refit
+MADE navigator(tree) toggle
+MADE Fullscreen mode toggle
+MADE orient previous
 transparency toggle
 erase not displayed
 display status save and save model
@@ -18,7 +21,7 @@ white background for pictures toggle to user background
 Users background setting
 insert mode here (below selection) toggle with cancel insert mode
 flip cross section
-internet browser toggle on off screen
+
 regen save and upload
 modelcheck run
 hide selected
@@ -28,7 +31,6 @@ hide all except
 model accuracy absolute 0.001 (when metric 1 micron)
 model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have submicron features)
 model accuracy relative 0.0012 
-
 
 accept edit sketch
 cancel edit sketch
