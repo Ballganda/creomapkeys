@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Navigator Toggle;\
+~ Activate `main_dlg_cur` `NavigatorOpenCloseChkBtn`;
