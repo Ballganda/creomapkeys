@@ -16,4 +16,4 @@ mapkey $F9 @MAPKEY_LABEL[]Layers Datums Toggle.Loaded.Hide;\
 ~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
 ~ Activate `ribbon_options_dialog` `OkPshBtn`;\
 ~ FocusIn `UITools Msg Dialog Future` `no`;\
-~ Activate `UITools Msg Dialog Future` `no
+~ Activate `UITools Msg Dialog Future` `no`;
