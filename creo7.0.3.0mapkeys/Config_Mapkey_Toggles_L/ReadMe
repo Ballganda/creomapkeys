@@ -1,0 +1,12 @@
+This Folder is for files loaded, referenced, called by mapkey.
+
+Typical use is for a Load to Toggle mapkey. If no setting to toggle is available in CREO on/off mapkeys are made.
+A third mapkey (ex: $F9) is used to toggle between on/off by doing the "on" mapkey operation then loading a config file that
+remaps ($F9) to do the "off" mapkey and load the config file that remaps back to the "on" version on next press.
+Can be done with 2 mapkeys but there is still 3 locations to maintain the code. 1 in initial config.pro load and the
+2 files to toggle the action of the defined keys. I prefer the 3 mapkey setup because the actual mapkeys are in
+config.pro. 
+
+The toggle files here are written nested to run a off/0 mapkey that is already loaded and then remap the toggle key to
+run the nested on/1 mapkey on the next press. None of the code for doing an on or off operation is here. Only the nested 
+run then a config file load.
