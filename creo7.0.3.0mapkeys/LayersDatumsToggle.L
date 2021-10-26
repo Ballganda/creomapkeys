@@ -5,7 +5,7 @@ mapkey $F9 @MAPKEY_LABEL[]Layers Datums Toggle.Loaded.Hide;\
 ! Set below and place the files into that loaction ;\
 ! Recommend a sub folder in CREO start in directory ;\
 ;\
-! This run the .llhd mapkey to hide the defined datum layers;\
+! This run the .lldh mapkey to hide the defined datum layers;\
 %.lldh;\
 ;\
 ! Below commands load the config file to redefine this mapkey;\
