@@ -1,0 +1,304 @@
+!&linear_tol_0_
+!&linear_tol_0_0
+!&linear_tol_0_00
+!&linear_tol_0_000
+!&linear_tol_0_0000
+!&linear_tol_0_00000
+!&linear_tol_0_000000
+!
+!&angular_tol_0_
+!&angular_tol_0_0
+!&angular_tol_0_00
+!&angular_tol_0_000
+!&angular_tol_0_0000
+!&angular_tol_0_00000
+!&angular_tol_0_000000
+
+!%CI26-Oct-21 15:35:10 
+~ Activate `main_dlg_cur` `page_Annotate_control_btn` 1
+< 2 1.361778 1924 0 0 1149 2560 0 0 1440 13
+~ Activate `main_dlg_cur` `Annotate:casc116895072`
+!%CPSelect LOCATION for note.
+~ LButtonArm `main_dlg_cur` `proe_win` 9 164 399 0 1 1924 1149 2560 1440 12982549
+** -0.085999 0.651871 2 1 1
+-0.085999 0.550016 L 0 1.361777778 2
+!Note_2(3DNOTE)
+!Embed Edit (Drw_Edit_Note) start edit
+~ Move `main_dlg_cur` `proe_win` 9 164 399 0 1 1924 1149 2560 1440 12982718
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 164 399 0 0 1924 1149 2560 1440 12982719
+~ Move `main_dlg_cur` `proe_win` 9 164 399 33554432 0 1924 1149 2560 1440 12983252
+~ Key `main_dlg_cur` `proe_win` 33554432 `Ctrl`
+~ Key `main_dlg_cur` `proe_win` 9 164 399 39190550 0 1924 1149 2560 1440 12983252 `Ctrl+V`
+~ Activate `main_dlg_cur` `Model:casc28584504`
+~ Trail `UI Desktop` `UI Desktop` `TrailProcessEditPasteTextEdit` \
+ `&linear_tol_0_\n&linear_tol_0_0\n&linear_tol_0_00\n&linear_tol_0_000\n&linea\
+r_tol_0_0000\n&linear_tol_0_00000\n&linear_tol_0_000000\n\n&angular_tol_0_\n&a\
+ngular_tol_0_0\n&angular_tol_0_00\n&angular_tol_0_000\n&angular_tol_0_0000\n&a\
+ngular_tol_0_00000\n&angular_tol_0_000000`
+! Executed sub-command ProCmdEditPasteTextEdit.
+~ Move `main_dlg_cur` `NoteEdit` 2 248 273
+~ Move `main_dlg_cur` `proe_win` 9 164 399 0 0 1924 1149 2560 1440 12983909
+~ LButtonArm `main_dlg_cur` `proe_win` 9 215 393 0 1 1924 1149 2560 1440 12993144
+@ GRM <GrmNoteBox> <Move box dragger> 1 -555.3511886398 227.0038691672 0.0000000000
+!Dragger (Move box dragger) start dragging
+~ Move `main_dlg_cur` `proe_win` 9 215 393 0 1 1924 1149 2560 1440 12993152
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 215 393 0 0 1924 1149 2560 1440 12993197
+@ GRM <GrmNoteBox> <Move box dragger> 1 151.2613621221 1536.1748803398 1038.8941586379
+!Dragger (Move box dragger) end dragging
+!New values are 90.198660.2 303.953764.2
+!Undo: added rec_id -1 type 5115 
+~ LButtonArm `main_dlg_cur` `proe_win` 9 174 401 0 1 1924 1149 2560 1440 12994669
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -593.2724100495 216.9981889836 0.0000000000
+@ GRMSEL Drw_Edit_Note 0 0 0 1
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 21 21
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 174 401 0 0 1924 1149 2560 1440 12994741
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -78.6553524804 549.2819843342 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ Move `main_dlg_cur` `NoteEdit` 2 14 14
+~ LButtonArm `main_dlg_cur` `proe_win` 9 174 401 0 1 1924 1149 2560 1440 12996166
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -593.2724100495 216.9981889836 0.0000000000
+@ GRMSEL Drw_Edit_Note 0 0 0 1
+!Dragger (Drw_Edit_Note) start dragging
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 174 401 0 0 1924 1149 2560 1440 12996237
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -78.6553524804 549.2819843342 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 174 401 0 129 1924 1149 2560 1440 12996494
+!%CPEnter value for linear_tol_0_ [0]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 174 401 0 256 1924 1149 2560 1440 12996512
+!%TR
+0
+@ GRMSEL Drw_Edit_Note 0 0 0 1
+~ LButtonArm `main_dlg_cur` `proe_win` 9 192 416 0 1 1924 1149 2560 1440 13010741
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -584.2921308150 198.2375386392 0.0000000000
+@ GRMSEL Drw_Edit_Note 1 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 17 17
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 192 416 0 0 1924 1149 2560 1440 13010837
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -65.4373368146 538.2669712794 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 192 416 0 129 1924 1149 2560 1440 13010924
+!%CPEnter value for linear_tol_0_0 [0.2]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 192 416 0 256 1924 1149 2560 1440 13010947
+!%TR
+0.25
+@ GRMSEL Drw_Edit_Note 1 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 15 15
+~ Move `main_dlg_cur` `NoteEdit` 2 15 15
+~ LButtonArm `main_dlg_cur` `proe_win` 9 200 432 0 1 1924 1149 2560 1440 13027157
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -584.1669188889 178.2261782718 0.0000000000
+@ GRMSEL Drw_Edit_Note 2 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 33 33
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 200 432 0 0 1924 1149 2560 1440 13027228
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -59.5626631854 526.5176240209 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 200 432 0 129 1924 1149 2560 1440 13027317
+!%CPEnter value for linear_tol_0_00 [0.01]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 200 432 0 256 1924 1149 2560 1440 13027337
+!%TR
+0.13
+@ GRMSEL Drw_Edit_Note 2 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 31 31
+~ Move `main_dlg_cur` `NoteEdit` 2 31 31
+~ LButtonArm `main_dlg_cur` `proe_win` 9 208 449 0 1 1924 1149 2560 1440 13041341
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -584.4559237437 156.9641078815 0.0000000000
+@ GRMSEL Drw_Edit_Note 3 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 50 50
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 208 449 0 0 1924 1149 2560 1440 13041380
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -53.6879895561 514.0339425587 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 208 449 0 129 1924 1149 2560 1440 13041477
+!%CPEnter value for linear_tol_0_000 [0.001]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 208 449 0 256 1924 1149 2560 1440 13041496
+!%TR
+0.05
+@ GRMSEL Drw_Edit_Note 3 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 48 48
+~ Move `main_dlg_cur` `NoteEdit` 2 48 48
+~ LButtonArm `main_dlg_cur` `proe_win` 9 220 466 0 1 1924 1149 2560 1440 13050844
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -581.3685883876 135.7020374912 0.0000000000
+@ GRMSEL Drw_Edit_Note 4 0 0 3
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 69 69
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 220 466 0 0 1924 1149 2560 1440 13050908
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -44.8759791123 501.5502610966 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 220 466 0 129 1924 1149 2560 1440 13050981
+!%CPEnter value for linear_tol_0_0000 [0.0001]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 220 466 0 256 1924 1149 2560 1440 13051002
+!%TR
+0
+@ GRMSEL Drw_Edit_Note 4 0 0 3
+~ Move `main_dlg_cur` `NoteEdit` 2 66 66
+~ Move `main_dlg_cur` `NoteEdit` 2 66 66
+~ LButtonArm `main_dlg_cur` `proe_win` 9 240 480 0 1 1924 1149 2560 1440 13056997
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -570.2859222667 118.1920971697 0.0000000000
+@ GRMSEL Drw_Edit_Note 5 0 0 4
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 89 89
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 240 480 0 0 1924 1149 2560 1440 13057077
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -30.1892950392 491.2695822454 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 240 480 0 129 1924 1149 2560 1440 13057132
+!%CPEnter value for linear_tol_0_00000 [0.00001]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 240 480 0 256 1924 1149 2560 1440 13057152
+!%TR
+0
+@ GRMSEL Drw_Edit_Note 5 0 0 4
+~ Move `main_dlg_cur` `NoteEdit` 2 85 85
+~ Move `main_dlg_cur` `NoteEdit` 2 85 85
+~ LButtonArm `main_dlg_cur` `proe_win` 9 231 496 0 1 1924 1149 2560 1440 13061519
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -584.5101562369 98.1807368024 0.0000000000
+@ GRMSEL Drw_Edit_Note 6 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 107 107
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 231 496 0 0 1924 1149 2560 1440 13061581
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -36.7983028721 479.5202349869 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 231 496 0 129 1924 1149 2560 1440 13061645
+!%CPEnter value for linear_tol_0_000000 [0.000001]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 231 496 0 256 1924 1149 2560 1440 13061668
+!%TR
+0
+@ GRMSEL Drw_Edit_Note 6 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 105 105
+~ Move `main_dlg_cur` `NoteEdit` 2 105 105
+~ LButtonArm `main_dlg_cur` `proe_win` 9 277 527 0 1 1924 1149 2560 1440 13068404
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -558.5229640218 59.4087260906 0.0000000000
+@ GRMSEL Drw_Edit_Note 8 0 0 4
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 131 131
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 277 527 0 0 1924 1149 2560 1440 13068485
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -3.0189295039 456.7558746736 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 277 527 0 129 1924 1149 2560 1440 13068549
+!%CPEnter value for angular_tol_0_ [0]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 277 527 0 256 1924 1149 2560 1440 13068570
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 8 0 0 4
+~ Move `main_dlg_cur` `NoteEdit` 2 127 127
+~ Move `main_dlg_cur` `NoteEdit` 2 127 127
+~ LButtonArm `main_dlg_cur` `proe_win` 9 280 542 0 1 1924 1149 2560 1440 13073076
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -562.2039605782 40.6480757462 0.0000000000
+@ GRMSEL Drw_Edit_Note 9 0 0 4
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 147 147
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 280 542 0 0 1924 1149 2560 1440 13073148
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -0.8159268930 445.7408616188 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 280 542 0 129 1924 1149 2560 1440 13073214
+!%CPEnter value for angular_tol_0_0 [0.5]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 280 542 0 256 1924 1149 2560 1440 13073232
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 9 0 0 4
+~ Move `main_dlg_cur` `NoteEdit` 2 143 143
+~ Move `main_dlg_cur` `NoteEdit` 2 143 143
+~ LButtonArm `main_dlg_cur` `proe_win` 9 282 559 0 1 1924 1149 2560 1440 13076550
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -567.5574757494 19.3860053559 0.0000000000
+@ GRMSEL Drw_Edit_Note 10 0 0 3
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 163 163
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 282 559 0 0 1924 1149 2560 1440 13076621
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 0.6527415144 433.2571801567 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 282 559 0 129 1924 1149 2560 1440 13076686
+!%CPEnter value for angular_tol_0_00 [0.50]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 282 559 0 256 1924 1149 2560 1440 13076706
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 10 0 0 3
+~ Move `main_dlg_cur` `NoteEdit` 2 160 160
+~ Move `main_dlg_cur` `NoteEdit` 2 160 160
+~ LButtonArm `main_dlg_cur` `proe_win` 9 284 578 0 1 1924 1149 2560 1440 13079229
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -573.7394244825 -4.3774850804 0.0000000000
+@ GRMSEL Drw_Edit_Note 11 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 180 180
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 284 578 0 0 1924 1149 2560 1440 13079309
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 2.1214099217 419.3048302872 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 284 578 0 129 1924 1149 2560 1440 13079373
+!%CPEnter value for angular_tol_0_000 [0.500]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 284 578 0 256 1924 1149 2560 1440 13079392
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 11 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 178 178
+~ Move `main_dlg_cur` `NoteEdit` 2 178 178
+~ LButtonArm `main_dlg_cur` `proe_win` 9 287 590 0 1 1924 1149 2560 1440 13083709
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -576.1777706961 -19.3860053559 0.0000000000
+@ GRMSEL Drw_Edit_Note 12 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 199 199
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 287 590 0 0 1924 1149 2560 1440 13083773
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 4.3244125326 410.4928198433 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 287 590 0 129 1924 1149 2560 1440 13083860
+!%CPEnter value for angular_tol_0_0000 [0.5000]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 287 590 0 256 1924 1149 2560 1440 13083880
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 12 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 197 197
+~ Move `main_dlg_cur` `NoteEdit` 2 197 197
+~ LButtonArm `main_dlg_cur` `proe_win` 9 287 607 0 1 1924 1149 2560 1440 13086333
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -583.2194559727 -40.6480757462 0.0000000000
+@ GRMSEL Drw_Edit_Note 13 0 0 2
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 219 219
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 287 607 0 0 1924 1149 2560 1440 13086397
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 4.3244125326 398.0091383812 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 287 607 0 129 1924 1149 2560 1440 13086477
+!%CPEnter value for angular_tol_0_00000 [0.50000]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 287 607 0 256 1924 1149 2560 1440 13086498
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 13 0 0 2
+~ Move `main_dlg_cur` `NoteEdit` 2 217 217
+~ Move `main_dlg_cur` `NoteEdit` 2 217 217
+~ LButtonArm `main_dlg_cur` `proe_win` 9 289 621 0 1 1924 1149 2560 1440 13088780
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 -587.3303208010 -58.1580160676 0.0000000000
+@ GRMSEL Drw_Edit_Note 14 0 0 1
+!Dragger (Drw_Edit_Note) start dragging
+~ Move `main_dlg_cur` `NoteEdit` 2 239 239
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 289 621 0 0 1924 1149 2560 1440 13088860
+@ GRM <DrwEditNote> <Drw_Edit_Note> 1 5.7930809399 387.7284595300 0.0000000000
+!Dragger (Drw_Edit_Note) end dragging
+!Moved by  0.000000, 0.000000
+~ LButtonArm `main_dlg_cur` `proe_win` 9 289 621 0 129 1924 1149 2560 1440 13088925
+!%CPEnter value for angular_tol_0_000000 [0.500000]
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 289 621 0 256 1924 1149 2560 1440 13088947
+!%TR
+2
+@ GRMSEL Drw_Edit_Note 14 0 0 1
+~ Move `main_dlg_cur` `NoteEdit` 2 238 238
+~ Move `main_dlg_cur` `NoteEdit` 2 238 238
+~ LButtonArm `main_dlg_cur` `proe_win` 9 286 723 0 1 1924 1149 2560 1440 13094965
+!Embed Edit (Drw_Edit_Note) finished edit (Not Applied)
+!Command ProCmdPmaAnnotNote was pushed from the software.
+!Undo: added rec_id 64 type 10015 
+!LiveUI: Activating PmaToolAnnotNote
+!Command ProCmdInfoNmgrLightDlg was pushed from the software.
+~ Move `main_dlg_cur` `proe_win` 9 286 723 0 1 1924 1149 2560 1440 13095062
+~ LButtonDisarm `main_dlg_cur` `proe_win` 9 286 723 0 0 1924 1149 2560 1440 13095095
+~ Key `main_dlg_cur` `proe_win` 9 287 714 196608 1024 1924 1149 2560 1440 13095420 `Del`
+~ Activate `main_dlg_cur` `Model:Edit_cb_feat_delete`
