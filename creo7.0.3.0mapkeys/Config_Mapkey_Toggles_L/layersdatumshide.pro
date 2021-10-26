@@ -14,6 +14,4 @@ mapkey $F9 @MAPKEY_LABEL[]Layers Datums Toggle.Loaded.Hide;\
 ~ Activate `ribbon_options_dialog` `ConfigLayout.Open`;\
 ~ Update `file_open` `Inputname` `C:\\Users\\user\\ptc_start\\Config_Mapkey_Toggles_L\\layersdatumsshow.pro`;\
 ~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
-~ Activate `ribbon_options_dialog` `OkPshBtn`;\
-~ FocusIn `UITools Msg Dialog Future` `no`;\
-~ Activate `UITools Msg Dialog Future` `no`;
+~ Activate `ribbon_options_dialog` `OkPshBtn`;
