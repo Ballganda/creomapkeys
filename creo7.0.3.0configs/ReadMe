@@ -1,1 +1,11 @@
 A real mess to configure CREO 
+
+The less you put into a config file the faster CREO loads. If CREO used the setting you want as default you do not need to have it in a config.pro.
+Unless it is an option you want locked in config.sup
+
+Creo config load order
+1.<Loadpoint/install dir> config.sup [Options set here are locked from later edits. Recommend company wide settings here that are static regardless of site/work assignment]
+2.<Loadpoint/install dir> config.pro [Options set here are recommended to be site or work assignment specific.
+                                      Launch script to replace config.pro with correct version at launch if you have multiple site configs. Corp mapkey go here]  
+3.<C:\Users\%username%\> config.pro (if present) [Recommended use is for users mapkeys]
+4.<Creo start in directory> config.pro (if present) [Recommended use is for users config options]
