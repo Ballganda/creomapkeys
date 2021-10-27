@@ -1,0 +1,138 @@
+
+load_ui_customization_run_dir no
+! Us the below location for creo_parametric_customization.ui
+! This makes the .ui save and load to the same place regardless of working dir
+!C:\Users\%USERNAME%\AppData\Roaming\PTC\ProENGINEER\Wildfire\.wf\.Settings
+
+!maintain_limit_tol_nominal
+!default_tolerance_mode
+!enable_absolute_accuracy
+!default_abs_accuracy
+
+cmdmgr_trail_output no
+default_gtol_owned_by_model yes
+allow_create_pdm_param yes
+let_proe_rename_pdm_objects yes
+enable_creo_simulation_live yes
+suppress_license_loss_dialog yes
+purge_history_on_save_copy yes
+dm_enable_revise_and_check_out no
+dm_checkout_on_the_fly continue
+retain_common_name_on_copy yes
+company_name Stanadyne
+date_type_parameter_format %dd%MMM%yyyy
+
+use_8_plotter_pens yes
+dm_cache_mode all
+dm_network_threads 4
+dm_http_compression_level 3
+dm_network_request_size 1000000
+dir_cache_max 500
+dm_synchronize_in_background yes
+dm_background_operations yes
+
+disable_search_path_check yes
+save_drawing_picture_file embed
+relat_marks_obj_modified no
+force_new_file_options_dialog yes
+rename_drawings_with_object both
+dm_remember_server yes
+
+!windows_browser_type ie_browser
+!enable_3dmodelspace_browser_tab no 
+!enable_partcommunity_tab no 
+
+file_open_default_folder workspace
+!pro_material_dir
+!date_type_parameter_format
+!pro_symbol_dir
+!symbol_instance_palette_file
+!pro_plot_config_dir
+!start_model_dir
+!pro_format_dir
+pro_dtl_setup_dir
+drawing_setup_file
+pro_colormap_path
+system_colors_file
+!mdl_tree_cfg_file !can be put into ui but not human readable editable
+
+default_dec_places 3
+!date_type_parameter_format
+
+save_model_display shading_lod
+
+linear_tol 0 0.5 1
+linear_tol 1 0.25 2
+linear_tol 2 0.13 2
+linear_tol 3 0.05 2
+linear_tol 4 0.005 3
+angular_tol 0 2 0
+angular_tol 1 2 0
+angular_tol 2 2 0
+angular_tol 3 2 0
+
+!tol_mode nominal
+tol_display no
+relation_file_editor protab
+drawing_file_editor protab
+bell no
+modelcheck_enabled yes
+graphics OPENGL
+
+save_objects changed_and_specified
+
+prehighlight yes
+
+def_layer LAYER_DATUM DATUM
+def_layer LAYER_AXIS AXIS
+def_layer LAYER_POINT PNT
+def_layer LAYER_CSYS CSYS
+def_layer LAYER_SYMBOL SYMBOL
+def_layer LAYER_QUILT QUILT
+def_layer LAYER_CURVE CURVE
+
+visible_message_lines 3
+
+parenthesize_ref_dim yes
+
+display_full_object_path yes
+menu_font
+windows_scale 1
+advanced_intersection yes
+
+!-Display Settings
+spin_center_display no
+display_annotations no
+display_axes no
+display_axis_tags no
+display_coord_sys no
+display_coord_sys_tags no
+display_planes no
+display_plane_tags no
+display_points no
+display_point_tags no
+edge_display_quality high
+
+visible_message_lines 3
+tol_display yes
+round_displayed_dim_values no
+round_prewf5_displayed_dim_val round none
+
+!-Default units and Calc
+pro_unit_mass unit_gram
+pro_unit_length unit_mm
+mass_property_calculate automatic
+mp_calc_level all_models
+
+!-Sketcher
+sketcher_snap_sensitivity medium
+sketcher_rel_accuracy 3
+
+!-Web Browser
+windows_browser_type ie_browser
+enable_3dmodelspace_browser_tab no 
+enable_partcommunity_tab no 
+enable_punditas_browser_tab no
+enable_resource_browser_tab no
+web_browser_homepage
+
