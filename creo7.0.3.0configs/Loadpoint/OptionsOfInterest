@@ -55,6 +55,8 @@ drawing_setup_file
 pro_colormap_path
 system_colors_file
 !mdl_tree_cfg_file !can be put into ui but not human readable editable
+des_exp_folder
+trail_dir
 
 default_dec_places 3
 !date_type_parameter_format
