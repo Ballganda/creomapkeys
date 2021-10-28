@@ -99,10 +99,31 @@ parenthesize_ref_dim yes
 
 display_full_object_path yes
 menu_font
-windows_scale 0.9
-set_menu_width 8
-reserved_menu_space 1.5
 advanced_intersection yes
+
+!Lets just start by saying setting the default window size is a mess
+!due to the legacy way the old ProE menu system reserve space was designed
+!
+!windows_scale controls program open vertical and horizontal size 1=100%
+!if reserve space is in effect the horizontal is 
+!result of windows_scale - (reserve_menu_space*set_menu_width)
+! unit conversions ignored in example equation above.
+!values 0.5-1.0
+windows_scale 0.9
+!
+!open_window_maximized Open any new Creo window maximized by default
+!Overrides horizontal menu reserve space
+open_window_maximized no
+!
+!set_menu_width Sets the width of Menu Manager panels in unit characters.
+!Values 8-20. Recommend 10 for easy scaling with reserved_menu_space 
+set_menu_width 10
+!
+!reserved_menu_space Reserves space for extra menus to the right of the Creo window
+!This option is in addition to windows_scale horizontal
+! (set_menu_width*reserved_menu_space) gets the amount of screen reserved 
+!values 0.0-4.0. 1 subtracts 1 menu width from Horizontal after window_scale is applied
+reserved_menu_space 1
 
 !-Display Settings
 spin_center_display no
