@@ -97,7 +97,9 @@ parenthesize_ref_dim yes
 
 display_full_object_path yes
 menu_font
-windows_scale 1
+windows_scale 0.9
+set_menu_width 8
+reserved_menu_space 1.5
 advanced_intersection yes
 
 !-Display Settings
