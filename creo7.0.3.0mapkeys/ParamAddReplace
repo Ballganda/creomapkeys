@@ -1,4 +1,4 @@
-mapkey $F7 @MAPKEY_LABEL[]Add/Replace Parameter;\
+mapkey $F9 @MAPKEY_LABEL[]Add/Replace Parameter;\
 ! Example of adding a parameter to model. ;\
 ! Replace "YOUR_PARAM_NAME" with the name of your choice. ;\
 ! Set Param types integer `int`, string `string`, real number `double`, ;\
