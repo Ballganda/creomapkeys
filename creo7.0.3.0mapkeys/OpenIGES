@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]Open IGES;\
+~ Command `ProCmdModelOpen` ;\
+~ Select `file_open` `Type` 1 `filter_.igs,.iges,`;
