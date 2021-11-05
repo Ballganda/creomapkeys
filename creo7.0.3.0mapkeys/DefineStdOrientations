@@ -1,0 +1,83 @@
+mapkey $F9 @MAPKEY_LABEL[]Define Std Orientations;\
+! Written assuming that user manually orients to the desired ;\
+! front view before pressing mapkey. ;\
+! Makes the standard views/orientations and isos of front and back ;\
+! If views/orientations of the same name exist this will override ;\
+! and save over/overwrite that named view orientation ;\
+! If you want the option to manually decide to override ;\
+! remove all the lines with "Yes;\" ;\
+;\
+! Open the orient manager ;\
+~ Command `ProCmdViewOrient` ;\
+;\
+! opens the saved orientation list ;\
+~ Activate `orient` `NmViewCheckBtn` 1;\
+;\
+! assign a name to the view ;\
+~ Input `orient` `NameVw_IP` `FRONT`;\
+;\
+! save a current view to the input name ;\
+~ Activate `orient` `NameVw_PB_Save`;\
+;\
+! This is the yes to confirm overriding existing ;\
+! view of the same name. Remove "yes" lines if override;\
+! is not desired ;\
+Yes;\
+;\
+! switch orientation type to dynamic ;\
+~ Select `orient` `SetupOptions` 1 `dynorient`;\
+;\
+! manipulate x and y axis to position for next view ;\
+~ Activate `orient` `spinPH.XSpinBox` 90;\
+~ Input `orient` `NameVw_IP` `TOP`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.XSpinBox` -90;\
+~ Input `orient` `NameVw_IP` `BOTTOM`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.XSpinBox` 0;\
+~ Activate `orient` `spinPH.YSpinBox` 90;\
+~ Input `orient` `NameVw_IP` `LEFT`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.YSpinBox` -90;\
+~ Input `orient` `NameVw_IP` `RIGHT`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.YSpinBox` 180;\
+~ Input `orient` `NameVw_IP` `BACK`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.YSpinBox` -35.26;\
+~ Activate `orient` `spinPH.XSpinBox` 45;\
+~ Input `orient` `NameVw_IP` `V_ISO_FR`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.XSpinBox` 0;\
+~ Activate `orient` `spinPH.YSpinBox` 70.52;\
+~ Activate `orient` `spinPH.XSpinBox` 45;\
+~ Input `orient` `NameVw_IP` `V_ISO_FL`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+;\
+! orient back to the initial start orientation manually ;\
+! made by the user and zero the inputs ;\
+~ Activate `orient` `spinPH.XSpinBox` 0;\
+~ Activate `orient` `spinPH.YSpinBox` -35.26;\
+~ Activate `orient` `spinPH.XSpinBox` 0;\
+;\
+! Proceed tot he back side ISOs ;\
+~ Activate `orient` `spinPH.YSpinBox` -144.74;\
+~ Activate `orient` `spinPH.XSpinBox` 45;\
+~ Input `orient` `NameVw_IP` `V_ISO_BR`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `spinPH.XSpinBox` 0;\
+~ Activate `orient` `spinPH.YSpinBox` -70.52;\
+~ Activate `orient` `spinPH.XSpinBox` 45;\
+~ Input `orient` `NameVw_IP` `V_ISO_BL`;\
+~ Activate `orient` `NameVw_PB_Save`;\
+Yes;\
+~ Activate `orient` `namedviewPH.NameVw_List` 1 `Default`;\
+~ Activate `orient` `OkPB`;
