@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Show Only;\
+mapkey(continued) ~ Command `ProCmdViewShowOnly`;
