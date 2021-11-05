@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Show Selected;\
+mapkey(continued) ~ Command `ProCmdViewShow`;
