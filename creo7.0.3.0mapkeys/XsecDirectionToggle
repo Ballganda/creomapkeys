@@ -1,0 +1,4 @@
+mapkey $F9 @MAPKEY_LABEL[]Xsec Direction Toggle;\
+~ Command `ProCmdRedefine` ;\
+~ Activate `main_dlg_cur` `maindashInst0.flip_plane_btn`;\
+~ Activate `main_dlg_cur` `dashInst0.Done`;
