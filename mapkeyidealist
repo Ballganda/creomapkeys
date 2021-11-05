@@ -24,24 +24,27 @@ MADE model accuracy relative 0.0012
 MADE open part
 MADE open all file types
 MADE generate views/orientations based on front view
+MADE open drawing
+MADE open asm
+MADE open step
+MADE open iges
+MADE hide selected
+MADE show selected
+MADE show only
+NADE unhide all except
+MADE show all
+MADE white background for pictures
+MADE background dark
+MADE flip cross section
+MADE ASM make flexible
+MADE ASM flexibility varied items
+MADE Flexibile PRT
 
 regen save and upload
-hide selected
-unhide selected
-unhide all except
-hide all except
-
-
-open drawing
-open asm
-open step
-open iges
 
 mass properties auto update/by request toggle
-white background for pictures toggle to user background
-Users background setting
+
 insert mode here (below selection) toggle with cancel insert mode
-flip cross section
 
 accept edit sketch
 cancel edit sketch
@@ -52,8 +55,6 @@ parameters import from file and replace existing of same name
 relation add from mapkey
 relation post regen add from mapkey
 Circular balloon add
-Make Flexible
-Show varied items of flexible part
 make and view xsec in selected plane
 enable and view xsec
 turn off xsections
