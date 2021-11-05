@@ -1,0 +1,5 @@
+mapkey $F9 @MAPKEY_LABEL[]Background White;\
+~ Command `ProCmdRibbonOptionsDlg` ;\
+~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `colors_layouts`;\
+~ Select `ribbon_options_dialog` `colors_layouts.Color_scheme_optMenu` 1 `2`;\
+~ Activate `ribbon_options_dialog` `OkPshBtn`;
