@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]Show All;\
+mapkey(continued) ~ Command `ProCmdViewShowAll`;
