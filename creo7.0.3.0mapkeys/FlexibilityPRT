@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]Flexibility PRT;\
+~ Command `ProCmdMmModelProperties`;\
+~ Activate `mdlprops_dlg` `FLEXIBLE_lay_Controls.push_Change.lay_instance`;
