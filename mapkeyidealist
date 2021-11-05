@@ -23,6 +23,7 @@ MADE model accuracy absolute 0.0001 (when metric 0.1 micron for parts that have 
 MADE model accuracy relative 0.0012
 MADE open part
 MADE open all file types
+MADE generate views/orientations based on front view
 
 regen save and upload
 hide selected
@@ -58,7 +59,6 @@ enable and view xsec
 turn off xsections
 next section view
 toggle windchill (last connected and no server)
-generate views based on front view
 orient to front
 orient to back
 orient to right
