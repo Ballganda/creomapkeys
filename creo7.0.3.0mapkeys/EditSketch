@@ -1,6 +1,6 @@
-﻿mapkey es @MAPKEY_NAMEEdits sketch for selected Sketch,Extrude,Revolve,\
+mapkey $F9 @MAPKEY_NAMEEdits sketch for selected Sketch,Extrude,Revolve,\
 Sweep,HelicalSweep,\n VolumeHelicalSweep,SweptBlend,Blend,RotationalBlend,Wrap,;\
-@MAPKEY_LABEL[es]EDIT SKETCH;\
+@MAPKEY_LABEL[]EDIT SKETCH;\
 ! Edits sketch for selected Sketch,Extrude,Revolve,Sweep,HelicalSweep,;\
 ! VolumeHelicalSweep,SweptBlend,Blend,RotationalBlend,Wrap,;\
 ! Trajectory Rib, Profile Rib;\
