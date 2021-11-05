@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]Open ASM;\
+~ Command `ProCmdModelOpen` ;\
+~ Select `file_open` `Type` 1 `db_3`;
