@@ -39,6 +39,7 @@ MADE flip cross section
 MADE ASM make flexible
 MADE ASM flexibility varied items
 MADE Flexibile PRT
+MADE View Orientations (need to add the temp view once that mapkey is made)
 
 regen save and upload
 
@@ -60,13 +61,7 @@ enable and view xsec
 turn off xsections
 next section view
 toggle windchill (last connected and no server)
-orient to front
-orient to back
-orient to right
-orient to left
-orient to top
-orient to bottom
-Orient to iso
+
 tmp_view
 orient to tmp_view
 delete tmp_view
