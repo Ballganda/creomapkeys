@@ -1,6 +1,7 @@
 mapkey $F9 @MAPKEY_LABEL[]Define Std Orientations;\
 ! Written assuming that user manually orients to the desired ;\
 ! front view before pressing mapkey. ;\
+! Use "ViewOrientations" to utilize(goto) these views;\
 ! Makes the standard views/orientations and isos of front and back ;\
 ! If views/orientations of the same name exist this will override ;\
 ! and save over/overwrite that named view orientation ;\
