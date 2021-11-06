@@ -1,0 +1,33 @@
+mapkey v11 @MAPKEY_LABEL[]View Front;\
+! All the example views here can be created with;\
+! the "DefineStdOrientations" mapkey ;\
+!direct command for a already saved view;\
+! activates "FRONT" in this example ;\
+~ Command `ProCmdNamedViewsGalSelect`  `FRONT`;
+
+mapkey v22 @MAPKEY_LABEL[]View Back;\
+~ Command `ProCmdNamedViewsGalSelect`  `BACK`;
+
+mapkey v33 @MAPKEY_LABEL[]View Right;\
+~ Command `ProCmdNamedViewsGalSelect`  `RIGHT`;
+
+mapkey v44 @MAPKEY_LABEL[]View Left;\
+~ Command `ProCmdNamedViewsGalSelect`  `LEFT`;
+
+mapkey v55 @MAPKEY_LABEL[]View Top;\
+~ Command `ProCmdNamedViewsGalSelect`  `TOP`;
+
+mapkey v66 @MAPKEY_LABEL[]View Bottom;\
+~ Command `ProCmdNamedViewsGalSelect`  `BOTTOM`;
+
+mapkey v77 @MAPKEY_LABEL[]View V_ISO_FR;\
+~ Command `ProCmdNamedViewsGalSelect`  `V_ISO_FR`;
+
+mapkey v88 @MAPKEY_LABEL[]View V_ISO_FL;\
+~ Command `ProCmdNamedViewsGalSelect`  `V_ISO_FL`;
+
+mapkey v99 @MAPKEY_LABEL[]View V_ISO_BR;\
+~ Command `ProCmdNamedViewsGalSelect`  `V_ISO_BR`;
+
+mapkey v00 @MAPKEY_LABEL[]View V_ISO_BL;\
+~ Command `ProCmdNamedViewsGalSelect`  `V_ISO_BL`;
