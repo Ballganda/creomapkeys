@@ -1,3 +1,3 @@
-mapkey $F9 @MAPKEY_LABEL[]Display Status Save to Model;\
+mapkey $F9 @MAPKEY_LABEL[]Save Display Status to Model;\
 ~ Command `ProCmdViewSaveLayStat` ;\
 ~ Command `ProCmdModelSave`;
