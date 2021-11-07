@@ -40,6 +40,7 @@ MADE ASM make flexible
 MADE ASM flexibility varied items
 MADE Flexibile PRT
 MADE View Orientations (need to add the temp view once that mapkey is made)
+MADE parameters import from file and replace existing of same name with relations 
 
 regen save and upload
 
@@ -52,7 +53,7 @@ cancel edit sketch
 datums view turn all off
 datums view toggle each type
 datum tags toggle
-parameters import from file and replace existing of same name
+
 relation add from mapkey
 relation post regen add from mapkey
 Circular balloon add
