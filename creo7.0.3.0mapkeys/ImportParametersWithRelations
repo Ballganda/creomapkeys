@@ -49,8 +49,8 @@ import\n*DO NOT click Open File*\n2. Click on RESUME;\
 ~ Activate `file_open` `Current Dir`;\
 ~ Select `file_open` `Ph_list.Filelist` 1 `temp_post_rel.txt`;\
 ~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` ;\
-~ Activate `relation_dlg` `PB_OK`;\
-;\
+~ Activate `relation_dlg` `PB_OK`;
+
 ! This section deletes the temp files that the relations were saved in. ;\
 ! Commented out this section to leave the saves in case the mapkey errors along the way. ;\
 ! ~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`;\
