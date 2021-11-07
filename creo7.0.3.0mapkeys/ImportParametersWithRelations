@@ -2,7 +2,7 @@ mapkey $F9 @MAPKEY_LABEL[]ImportParamsWithRelations;\
 ! This mapkey saves the relations to temp files and temporarily deletes ;\
 ! the relations from the model to perform an import of parameters. ;\
 ;\
-! This code block opens relations saves to files and deletes the pre and ;\
+! This section opens relations saves to files and deletes the pre and ;\
 ! post regen realtions. Realtions are save to the current working dir ;\
 ~ Command `ProCmdMmRels` ;\
 ~ Select `relation_dlg` `PrePostOM` 1 `PostRegen`;\
