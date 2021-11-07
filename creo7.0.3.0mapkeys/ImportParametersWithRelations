@@ -52,7 +52,7 @@ import\n*DO NOT click Open File*\n2. Click on RESUME;\
 ~ Activate `relation_dlg` `PB_OK`;\
 ;\
 ! This section deletes the temp files that the relations were saved in. ;\
-! Can comment out this section to leave the saves in case the mapkey errors along the way. ;\
+! Commented out this section to leave the saves in case the mapkey errors along the way. ;\
 ! ~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`;\
 ! ~ Activate `main_dlg_cur` `Current Dir`;\
 ! ~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `temp_post_rel.txt`;\
