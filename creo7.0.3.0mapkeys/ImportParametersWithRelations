@@ -1,0 +1,65 @@
+mapkey $F9 @MAPKEY_LABEL[]ImportParamsWithRelations;\
+! This mapkey saves the relations to temp files and temporarily deletes ;\
+! the relations from the model to perform an import of parameters. ;\
+;\
+! This code block opens relations saves to files and deletes the pre and ;\
+! post regen realtions. Realtions are save to the current working dir ;\
+~ Command `ProCmdMmRels` ;\
+~ Select `relation_dlg` `PrePostOM` 1 `PostRegen`;\
+~ Close `relation_dlg` `MenuBar1`;\
+~ Activate `relation_dlg` `PBExport`;\
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
+~ Activate `file_open` `Current Dir`;\
+~ Input `file_open` `Inputname` `temp_post_rel.txt`;\
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
+~ Activate `relation_dlg` `PBSelectAll`;\
+~ Activate `relation_dlg` `TBDelete`;\
+~ Select `relation_dlg` `PrePostOM` 1 `PreRegen`;\
+~ Activate `relation_dlg` `PBExport`;\
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
+~ Activate `file_open` `Current Dir`;\
+~ Input `file_open` `Inputname` `temp_rel.txt`;\
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
+~ Activate `relation_dlg` `PBSelectAll`;\
+~ Activate `relation_dlg` `TBDelete`;\
+~ Activate `relation_dlg` `PB_OK`;\
+;\
+! This sections opens parameters and asks user to select the file to ;\
+! import parameters from. Replace do not duplicated are selected ;\
+~ Command `ProCmdMmParams`;\
+~ Activate `relation_dlg` `PBImportXML`;\
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
+@MANUAL_PAUSE1. Select/Highlight the file in the open file dialog you want to \
+import\n*DO NOT click Open File*\n2. Click on RESUME;\
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` ;\
+~ Activate `paste_prm_cnfl_dlg` `DuplIfCantRepl` 0;\
+~ Activate `paste_prm_cnfl_dlg` `PasteBtnOk`;\
+~ Activate `relation_dlg` `PB_OK`;\
+;\
+! This section Opens relations and imports the relations back in the model ;\
+~ Command `ProCmdMmRels` ;\
+~ Activate `relation_dlg` `PBRead`;\
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
+~ Activate `file_open` `Current Dir`;\
+~ Select `file_open` `Ph_list.Filelist` 1 `temp_rel.txt`;\
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` ;\
+~ Select `relation_dlg` `PrePostOM` 1 `PostRegen`;\
+~ Activate `relation_dlg` `PBRead`;\
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
+~ Activate `file_open` `Current Dir`;\
+~ Select `file_open` `Ph_list.Filelist` 1 `temp_post_rel.txt`;\
+~ Command `ProFileSelPushOpen_Standard@context_dlg_open_cmd` ;\
+~ Activate `relation_dlg` `PB_OK`;\
+;\
+! This section deletes the temp files that the relations were saved in. ;\
+! Can comment out this section to leave the saves in case the mapkey errors along the way. ;\
+! ~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.Folders`;\
+! ~ Activate `main_dlg_cur` `Current Dir`;\
+! ~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `temp_post_rel.txt`;\
+! ~ Activate `main_dlg_cur` `psh_delete1`;\
+! ~ Activate `UI Message Dialog` `ok`;\
+! ~ Select `main_dlg_cur` `EMBED_BROWSER NATIVE UI TAB.Ph_list.Filelist` 1 `temp_rel.txt`;\
+! ~ Activate `main_dlg_cur` `psh_delete1`;\
+! ~ Activate `UI Message Dialog` `ok`;\
+! ~ Activate `main_dlg_cur` `EMBED_BROWSER Close`;\
+! ~ Select `main_dlg_cur` `PHTLeft.ProExplorerTab` 1 `PHTLeft.MdlTreeLay`;
