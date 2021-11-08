@@ -160,4 +160,8 @@ enable_partcommunity_tab no
 enable_punditas_browser_tab no
 enable_resource_browser_tab no
 web_browser_homepage
+web_browser_history_days 1
+
+
+
 
