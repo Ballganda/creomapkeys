@@ -9,6 +9,8 @@ load_ui_customization_run_dir no
 !enable_absolute_accuracy
 !default_abs_accuracy
 
+relations_units_sensitive
+
 cmdmgr_trail_output no
 default_gtol_owned_by_model yes
 allow_create_pdm_param yes
