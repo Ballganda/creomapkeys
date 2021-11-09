@@ -1,0 +1,3 @@
+mapkey $F9 @MAPKEY_LABEL[]TolSym+-0.008;\
+~ Command `ProCmdPmaOptDimTolMode`  `Symmetric`;\
+~ Command `ProCmdPmaInpDimUpperTol`  `0.008`;
