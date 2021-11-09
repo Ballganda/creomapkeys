@@ -1,0 +1,10 @@
+mapkey $F9 @MAPKEY_LABEL[]TolLimits_Nom+0.2_Nom-0;\
+! This one is a trick first setting Plus-minus then switching to;\
+! limits. Needs "maintain_limit_tol_nominal yes" set in config;\
+! Having That config options keeps the nominal from changing while ;\
+! changing tol type or editing an uneven tol or limit ;\
+! Change the limits as needed from this example;\
+~ Command `ProCmdPmaOptDimTolMode`  `Plus-Minus`;\
+~ Command `ProCmdPmaInpDimUpperTol`  `.2`;\
+~ Command `ProCmdPmaInpDimLowerTol`  `0`;\
+~ Command `ProCmdPmaOptDimTolMode`  `Limits`;
