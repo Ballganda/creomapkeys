@@ -41,6 +41,10 @@ MADE ASM flexibility varied items
 MADE Flexibile PRT
 MADE View Orientations (need to add the temp view once that mapkey is made)
 MADE parameters import from file and replace existing of same name with relations 
+MADE Designate a param
+MADE Undesignate a param
+MADE Lock A param
+MADE Unlock a param
 
 regen save and upload
 
