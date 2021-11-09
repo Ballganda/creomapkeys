@@ -74,7 +74,7 @@ linear_tol 0 0.5 1
 linear_tol 1 0.25 2
 linear_tol 2 0.13 2
 linear_tol 3 0.05 2
-linear_tol 4 0.005 3
+linear_tol 4 0 0
 angular_tol 0 2 0
 angular_tol 1 2 0
 angular_tol 2 2 0
