@@ -1,0 +1,5 @@
+mapkey $F9 @MAPKEY_LABEL[]ParamDesignate;\
+~ Command `ProCmdMmParams` ;\
+~ Select `relation_dlg` `ParamsPHLay.ParTable` 2 `rowPARAMETER_NAME` `attribute`;\
+~ Activate `relation_dlg` `PBDesignate`;\
+~ Activate `relation_dlg` `PB_OK`;
