@@ -1,2 +1,2 @@
-mapkey $F9 @MAPKEY_LABEL[]Precision 0.X;\
+mapkey $F9 @MAPKEY_LABEL[]Precision X.X;\
 ~ Command `ProCmdPmaOptDimNDigits`  `0.1`;
