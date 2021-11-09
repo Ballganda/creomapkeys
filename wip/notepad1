@@ -49,9 +49,12 @@ mapkey $F9 @MAPKEY_LABEL[]TolSymmetric+-0.5;\
 ~ Command `ProCmdPmaInpDimUpperTol`  `0.5`;
 
 mapkey $F9 @MAPKEY_LABEL[]TolLimits;\
-~ Command `ProCmdPmaOptDimTolMode`  `Limits`;\
-~ Command `ProCmdPmaInpDimUpperTol`  `75.50`;\
-~ Command `ProCmdPmaInpDimLowerTol`  `74.50`;
+! This one is a trick first setting Plus-minus then switching to;\
+! limits with "maintain_limit_tol_nominal yes" set in config;\
+~ Command `ProCmdPmaOptDimTolMode`  `Plus-Minus`;\
+~ Command `ProCmdPmaInpDimUpperTol`  `.2`;\
+~ Command `ProCmdPmaInpDimLowerTol`  `.1`;
+~ Command `ProCmdPmaOptDimTolMode`  `Limits`;
 
 mapkey $F9 @MAPKEY_LABEL[]TolPlus-Minus+0.2_-0.1;\
 ~ Command `ProCmdPmaOptDimTolMode`  `Plus-Minus`;\
