@@ -1,0 +1,4 @@
+mapkey $F9 @MAPKEY_LABEL[]TolPlus-Minus+0.2_-0.1;\
+~ Command `ProCmdPmaOptDimTolMode`  `Plus-Minus`;\
+~ Command `ProCmdPmaInpDimUpperTol`  `.2`;\
+~ Command `ProCmdPmaInpDimLowerTol`  `.1`;
