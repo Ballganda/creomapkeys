@@ -1,0 +1,2 @@
+mapkey $F9 @MAPKEY_LABEL[]PrecisionTol X.XXXX;\
+~ Command `ProCmdPmaOptDimTolNDigits`  `0.1234`;
