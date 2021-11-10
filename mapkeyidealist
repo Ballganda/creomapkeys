@@ -45,6 +45,30 @@ MADE Designate a param
 MADE Undesignate a param
 MADE Lock A param
 MADE Unlock a param
+MADE set dim to 4 decimal places
+MADE set tol to +-0.5
+MADE set tol to +-0.25
+MADE set tol to +-0.12
+MADE set tol to +-0.025
+MADE set tol to +-0.05
+MADE set tol to +-0.01
+MADE set tol to +-0.008
+MADE set tol to +-0.005
+MADE set tol to +-0.002
+MADE set tol to +-0.0017
+MADE set 3 decimal
+MADE set 2 decimal
+MADE set 1 decimal
+MADE set tol precision same as dim
+MADE set tol precision 0
+MADE set tol precision 1
+MADE set tol precision 2
+MADE set tol precision 3
+MADE set tol precision 4
+MADE tol basic
+MADE tol nominal (use ansi/asme title block tol)
+MADE flip dimension arrows 
+MADE flip leader text side
 
 regen save and upload
 
@@ -70,20 +94,13 @@ toggle windchill (last connected and no server)
 tmp_view
 orient to tmp_view
 delete tmp_view
+
 drw shade a view
 drw set line type of view to no hidden no tangent
 drw set line type of view to dimmed
-set dim to 4 decimal places
-set tol to +-0.25
-set tol to +-0.12
-set tol to +-0.05
-set tol to +-0.005
-set 3 decimal
-set 2 decimal
-set 1 decimal
+
 add 2x to dimension annotation
-flip dimension arrows inside outside
-flip leader side
+
 cycle through leader arrow on radius
 dimension type nominal only
 dimension type basic
