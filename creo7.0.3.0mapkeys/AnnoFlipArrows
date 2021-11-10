@@ -1,4 +1,4 @@
-mapkey $F8 @MAPKEY_LABEL[]AnnoFlipArrows;\
+mapkey $F9 @MAPKEY_LABEL[]AnnoFlipArrows;\
 ! Flips arrows in part annotation or DRW ;\
-~ Command `ProCmdDwgFlipArrows` ;\
-~ Command `ProCmdDtlFlipArrows` ;
+~ Command `ProCmdDtlFlipArrows` ;\
+~ Command `ProCmdDwgFlipArrows` ;
