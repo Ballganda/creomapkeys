@@ -1,0 +1,6 @@
+mapkey $F9 @MAPKEY_LABEL[]UpdateMassProperties;\
+mapkey(continued) ~ Command `ProCmdMmModelProperties` ;\
+mapkey(continued) ~ Activate `mdlprops_dlg` `MASS_PROPS_lay_Controls.push_Change.lay_instance`;\
+mapkey(continued) ~ Activate `mass_prop_dlg` `CalculateMPPush`;\
+mapkey(continued) ~ Activate `mass_prop_dlg` `OkPush`;\
+mapkey(continued) ~ Activate `mdlprops_dlg` `DlgClose_push`;
