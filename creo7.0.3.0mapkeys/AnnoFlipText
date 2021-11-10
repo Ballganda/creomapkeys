@@ -1,0 +1,3 @@
+mapkey $F8 @MAPKEY_LABEL[]AnnoFlipText;\
+~ Command `ProCmdDtlFlipText`;\
+~ Command `ProCmdDwgPopFlipText`;
