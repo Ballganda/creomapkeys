@@ -3,7 +3,7 @@ mapkey $F9 @MAPKEY_LABEL[]ImportParamsWithRelations;\
 ! the relations from the model to perform an import of parameters. ;\
 ;\
 ! This section opens relations saves to files and deletes the pre and ;\
-! post regen realtions. Realtions are save to the current working dir ;\
+! post regen relations. Relations are save to the current working dir ;\
 ~ Command `ProCmdMmRels` ;\
 ~ Activate `relation_dlg` `CBLocalParams` 1;\
 ~ Activate `relation_dlg` `CBRelations` 1;\
