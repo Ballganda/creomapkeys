@@ -5,6 +5,8 @@ mapkey $F9 @MAPKEY_LABEL[]ImportParamsWithRelations;\
 ! This section opens relations saves to files and deletes the pre and ;\
 ! post regen realtions. Realtions are save to the current working dir ;\
 ~ Command `ProCmdMmRels` ;\
+~ Activate `relation_dlg` `CBLocalParams` 1;\
+~ Activate `relation_dlg` `CBRelations` 1;\
 ~ Select `relation_dlg` `PrePostOM` 1 `PostRegen`;\
 ~ Close `relation_dlg` `MenuBar1`;\
 ~ Activate `relation_dlg` `PBExport`;\
@@ -38,6 +40,8 @@ import\n*DO NOT click Open File*\n2. Click on RESUME;\
 ;\
 ! This section Opens relations and imports the relations back in the model ;\
 ~ Command `ProCmdMmRels` ;\
+~ Activate `relation_dlg` `CBLocalParams` 1;\
+~ Activate `relation_dlg` `CBRelations` 1;\
 ~ Activate `relation_dlg` `PBRead`;\
 ~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
 ~ Activate `file_open` `Current Dir`;\
