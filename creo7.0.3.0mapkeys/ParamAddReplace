@@ -8,6 +8,7 @@ mapkey $F9 @MAPKEY_LABEL[]Add/Replace Parameter;\
 ! Opens relations and param dialog and open param area ;\
 mapkey(continued) ~ Command `ProCmdMmRels` ;\
 mapkey(continued) ~ Activate `relation_dlg` `CBLocalParams` 1;\
+mapkey(continued) ~ Activate `relation_dlg` `CBRelations` 1;\
 ;\
 ! Delete a param of the same name you are trying to add first ;\
 ! Use only if you want to replace params ;\
