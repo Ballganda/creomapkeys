@@ -1,0 +1,61 @@
+mapkey odrw @MAPKEY_NAMEOpen drawing with same name as active model or selected assembly part;\
+mapkey(continued) @MAPKEY_LABELOpen Drawing w/ Same Name (odrw);\
+mapkey(continued) ~ Command `ProCmdOpenModel@PopupMenuGraphicWinStack`;\
+mapkey(continued) ~ Activate `open_instance` `open`;\
+mapkey(continued) %>storetmpfile;%>partnameopen;%>loadconf;\
+mapkey(continued) ~ Command `ProCmdModelOpen`;\
+mapkey(continued) ~ Activate `file_open` `workspace_pb`;\
+mapkey(continued) %partnameopen;\
+mapkey(continued) ~ Activate `file_open` `Inputname`;
+
+mapkey ndrw @MAPKEY_LABELNew Drawing w/ Same Name (ndrw);\
+mapkey(continued) %>storetmpfile;%>partnamenew;%>loadconf;\
+mapkey(continued) ~ Command `ProCmdModelNew`;\
+mapkey(continued) ~ Select `new` `Type` 1 `Drawing`;\
+mapkey(continued) ~ Activate `new` `chk_use_default_template`0 ;\
+mapkey(continued) %partnamenew;\
+mapkey(continued) @MANUAL_PAUSEName drawing and Resume.;\
+mapkey(continued) ~ Activate `new` `OK`;\
+mapkey(continued) ~ Select `dwg_create` `rad_format` 1 `1`;
+
+!======================
+mapkey >storetmpfile @MAPKEY_LABELStore model name to temp file;\
+mapkey(continued) ~ Command `ProCmdModelSaveAs` ;\
+mapkey(continued) #CURRENT VALS;\
+mapkey(continued) ~ Activate `storage_conflicts` `Close_PushButton`;\
+mapkey(continued) ~ Select `file_saveas` `type_option` 1 `db_129`;\
+mapkey(continued) ~ Activate `file_saveas` `check_is_secondary` 0;\
+mapkey(continued) ~ Activate `file_saveas` `Current Dir`;\
+mapkey(continued) ~ Activate `file_saveas` `OK`;\
+mapkey(continued) ~ Activate `UI Message Dialog` `ok`;
+
+mapkey >partnameopen @MAPKEY_LABELGets partname to open drawing;\
+mapkey(continued) @SYSTEMdel sw.pro\n\
+mapkey(continued) dir /b *.pic>\%temp\%\\filename.txt\n\
+mapkey(continued) set /p VAR1=<\%temp\%\\filename.txt\n\
+mapkey(continued) del \%temp\%\\filename.txt\n\
+mapkey(continued) set FILENAME=\%VAR1:\~0,-4\%\n\
+mapkey(continued) echo mapkey partnameopen \~ Update `file_open` \
+mapkey(continued) `Inputname` `\%FILENAME\%.drw`\;>>sw.pro\n\
+mapkey(continued) del *.pic;
+mapkey >partnamenew @MAPKEY_LABELGets partname for new part;\
+mapkey(continued) @SYSTEMdel sw.pro\n\
+mapkey(continued) dir /b *.pic>\%temp\%\\filename.txt\n\
+mapkey(continued) set /p VAR1=<\%temp\%\\filename.txt\n\
+mapkey(continued) del \%temp\%\\filename.txt\n\
+mapkey(continued) set FILENAME=\%VAR1:\~0,-4\%\n\
+mapkey(continued) echo mapkey partnamenew \~ Input `new` \
+mapkey(continued) `InputPanel1` `\%FILENAME\%`\;>>sw.pro\n\
+mapkey(continued) del *.pic;
+
+mapkey >loadconf @MAPKEY_LABELLoad mapkey into session;\
+mapkey(continued) ~ Command `ProCmdRibbonOptionsDlg`;\
+mapkey(continued) ~ Select `ribbon_options_dialog` `PageSwitcherPageList` 1 `ConfigLayout`;\
+mapkey(continued) ~ Activate `ribbon_options_dialog` `ConfigLayout.Open`;\
+mapkey(continued) ~ Activate `file_open` `Current Dir`;\
+mapkey(continued) ~ Update `file_open` `Inputname` `sw.pro`;\
+mapkey(continued) ~ Command `ProFileSelPushOpen@context_dlg_open_cmd`;\
+mapkey(continued) ~ Activate `ribbon_options_dialog` `OkPshBtn`;\
+mapkey(continued) ~ Activate `UITools Msg Dialog Future` `no`;\
+mapkey(continued) @SYSTEMDel sw.pro;
+!======================
