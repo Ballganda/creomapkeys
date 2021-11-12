@@ -4,6 +4,8 @@ load_ui_customization_run_dir no
 ! This makes the .ui save and load to the same place regardless of working dir
 !C:\Users\%USERNAME%\AppData\Roaming\PTC\ProENGINEER\Wildfire\.wf\.Settings
 
+open_simplified_rep_by_default
+
 maintain_limit_tol_nominal yes
 maintain_dim_tol_values no
 round_displayed_dim_value no
