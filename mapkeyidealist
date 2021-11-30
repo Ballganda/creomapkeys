@@ -70,12 +70,12 @@ MADE tol nominal (use ansi/asme title block tol)
 MADE flip dimension arrows 
 MADE flip leader text side
 
+IN PROCESS formated note mapkey
+
+xsec A and B made and named on x and y planes
 regen save and upload
-
 arrow type none for gtols
-
 mass properties auto update/by request toggle
-
 insert mode here (below selection) toggle with cancel insert mode
 
 accept edit sketch
