@@ -1,3 +1,31 @@
+Below mapkey:
+
+opens a free note.
+pause for pick location.
+resume.
+edit the text height(could add other format edits). 
+uses "paste"(there is no real paste but I pasted in the text from windows clipboard to get a proper recording). Note the pasted text is "BigtestY\n" which is BigtestY + a return to get to next line.
+repeat step 4 to edit text format
+repeat step 5 but with new text input
+rinse and repeat as needed 
+Im in metric so my text heights are 10, 6, and 4 in this example.
+
+mapkey $F9 @MAPKEY_LABELmultisizenote;\
+~ Command `ProCmdDtlInsFreeNote` ;\
+@MANUAL_PAUSEPick Location;\
+~ Command `ProCmdDtlSetTextHeight` 10.000000;\
+~ Command `ProCmdEditPaste` ;\
+~ Trail `UI Desktop` `UI Desktop` `TrailProcessEditPasteTextEdit` `BigtestY\n`;\
+~ Command `ProCmdDtlSetTextHeight` 4.000000;\
+~ Command `ProCmdEditPaste` ;\
+~ Trail `UI Desktop` `UI Desktop` `TrailProcessEditPasteTextEdit` `smalLTesty\n`;\
+~ Command `ProCmdDtlSetTextHeight` 6.000000;\
+~ Command `ProCmdEditPaste` ;\
+~ Trail `UI Desktop` `UI Desktop` `TrailProcessEditPasteTextEdit` `meDiumteSty\n`;\
+~ Command `ProCmdDtlSetTextHeight` 4.000000;\
+~ Command `ProCmdEditPaste` ;\
+~ Trail `UI Desktop` `UI Desktop` `TrailProcessEditPasteTextEdit` `smalLTesty`;
+
 mapkey $F9 @MAPKEY_LABEL[]Tol+-0.5;\
 ~ Command `ProCmdPmaOptDimTolMode`  `Symmetric`;\
 ~ Command `ProCmdPmaInpDimUpperTol`  `0.5`;
