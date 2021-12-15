@@ -20,6 +20,8 @@ relations_units_sensitive
 relation_text_trail_output
 relation_tool_mapkey_behavior
 
+sim_solver_memory_allocation 5120
+
 cmdmgr_trail_output no
 default_gtol_owned_by_model yes
 allow_create_pdm_param yes
