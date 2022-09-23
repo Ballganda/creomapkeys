@@ -1,4 +1,4 @@
-mapkey $F9 @MAPKEY_LABEL[F9]Part Finish LVL Completion +1;\
+mapkey $F9 @MAPKEY_LABEL[F9]PartASMmerge;\
 mapkey(continued) ~ Command `ProCmdModelNew`;\
 mapkey(continued) @MANUAL_PAUSE\
 mapkey(continued) 1. Input FILE NAME\n\
