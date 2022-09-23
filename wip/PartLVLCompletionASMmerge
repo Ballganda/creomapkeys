@@ -1,7 +1,8 @@
 mapkey $F9 @MAPKEY_LABEL[F9]Part Finish LVL Completion +1;\
 mapkey(continued) ~ Command `ProCmdModelNew`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Input FILE NAME\n2. Click RESUME;\
+mapkey(continued) 1. Input FILE NAME\n\
+mapkey(continued) ---DO NOT CLICK OK---\n2. Click RESUME;\
 mapkey(continued) ~ FocusIn `new` `InputPanel1`;\
 mapkey(continued) ~ Activate `new` `OK`;~ FocusOut `new_file_opts` `inp_template_name`;\
 mapkey(continued) ~ Select `new_file_opts` `lst_template_names` 1 `sc_part_metric`;\
@@ -16,7 +17,9 @@ mapkey(continued) ~ Update `new_file_opts` `inp_string_param.8` `.`;\
 mapkey(continued) ~ Update `new_file_opts` `inp_string_param.9` `.`;\
 mapkey(continued) ~ Update `new_file_opts` `inp_string_param.6` ``;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Input PART_DESCRIPTION\n2. Click RESUME;\
+mapkey(continued) 1. Input PART_DESCRIPTION\n\
+mapkey(continued) ---DO NOT CLICK OK---\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ FocusIn `new_file_opts` `inp_string_param.6`;\
 mapkey(continued) ~ Activate `new_file_opts` `psh_ok`;\
 mapkey(continued) ~ Command `ProCmdModelSave`;\
@@ -29,23 +32,29 @@ mapkey(continued) ~ Activate `new_file_opts` `psh_ok`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `Model:casc144061264`;\
 mapkey(continued) ~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select NEW EMPTY level completion part in model tree\n2. RESUME;\
+mapkey(continued) 1. Select NEW EMPTY level completion part in Open dialog ONLY\n\
+mapkey(continued) ---DO NOT CLICK OPEN---\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Activate `file_open` `Open`;\
 mapkey(continued) ~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
 mapkey(continued) `main_dlg_w5:PHTLeft.AssyTree:<NULL>`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select PART CSO then ASM CSO in model tree\n2. Click RESUME;\
+mapkey(continued) 1. Select PART CSO then ASM CSO in model tree\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Activate `main_dlg_cur` `dashInst0.stdbtn_1`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `Model:casc144061264`;\
 mapkey(continued) ~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` `file_open`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select PREVIOUS level completion part in model tree\n2. Click RESUME;\
+mapkey(continued) 1. Select PREVIOUS level completion part in Open dialog ONLY\n\
+mapkey(continued) ---DO NOT CLICK OPEN---\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Activate `file_open` `Open`;\
 mapkey(continued) ~ Expand `main_dlg_cur` `PHTLeft.AssyTree` `node7`;\
 mapkey(continued) ~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
 mapkey(continued) `main_dlg_w5:PHTLeft.AssyTree:<NULL>`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select PART CSO then OTHER PART CSO in model tree\n2. Click RESUME;\
+mapkey(continued) 1. Select PART CSO then OTHER PART CSO in model tree\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Activate `main_dlg_cur` `dashInst0.stdbtn_1`;\
 mapkey(continued) ~ Select `main_dlg_cur` \
 mapkey(continued) `page_Model|group_Assembly144012056_inh161227464|_cb_overflow`;\
@@ -66,12 +75,14 @@ mapkey(continued) ~ Focus `boolean_op_dlg` `BoolOpSourceModelsLst`;\
 mapkey(continued) ~ Select `boolean_op_dlg` `BoolOpSourceModelsLst` 0;\
 mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select NEW LEVEL PART in tree\n3. Click RESUME;\
+mapkey(continued) 1. Select NEW LEVEL PART in tree\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Focus `boolean_op_dlg` `BoolOpTargetComponentsLst`;\
 mapkey(continued) ~ Select `boolean_op_dlg` `BoolOpTargetComponentsLst` 0;\
 mapkey(continued) ~ Timer `UI Desktop` `UI Desktop` `CollectorWdg_FocusTimer`;\
 mapkey(continued) @MANUAL_PAUSE\
-mapkey(continued) 1. Select PREVIOUS LVL PART in tree\n3. Click RESUME;\
+mapkey(continued) 1. Select PREVIOUS LVL PART in tree\n\
+mapkey(continued) 2. Click RESUME;\
 mapkey(continued) ~ Activate `boolean_op_dlg` `BoolOpOkBtn`;#DONE/RETURN;\
 mapkey(continued) ~ Select `main_dlg_cur` `appl_casc`;~ Close `main_dlg_cur` `appl_casc`;\
 mapkey(continued) ~ Activate `main_dlg_cur` `appl_menu.left_pane.close_button`;\
