@@ -1,4 +1,5 @@
 mapkey $F9 @MAPKEY_LABEL[]Accuracy Relative 0.0012;\
+! https://github.com/Ballganda/ptc_creo_config_mapkeys ;\
 ~ Command `ProCmdMmModelProperties` ;\
 ~ Activate `mdlprops_dlg` `ACCURACY_lay_Controls.push_Change.lay_instance`;\
 ~ Select `setup_accuracy_dlg` `cmb_Type_Choose` 1 `item_relat`;\
