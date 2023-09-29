@@ -10,6 +10,46 @@ repeat step 5 but with new text input
 rinse and repeat as needed 
 Im in metric so my text heights are 10, 6, and 4 in this example.
 
+mapkey FA @MAPKEY_NAMESelects the axis named A_1;@MAPKEY_LABEL[FA]Select Axis A_1;\
+~ Command `ProCmdMdlTreeSearch` ;\
+~ Select `selspecdlg0` `SelOptionRadio` 1 `Feature`;\
+~ Select `selspecdlg0` `LookByOptionMenu` 1 `Axis`;\
+~ Select `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasNameComp` 1 ` == `;\
+~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` `A_1`;\
+~ Activate `selspecdlg0` `EvaluateBtn`;\
+~ Activate `selspecdlg0` `ApplyBtn`;\
+~ Activate `selspecdlg0` `CancelButton`;
+
+mapkey FX @MAPKEY_NAMESelects the Plane X;@MAPKEY_LABEL[FX]Select Plane X;\
+~ Command `ProCmdMdlTreeSearch` ;\
+~ Select `selspecdlg0` `SelOptionRadio` 1 `Feature`;\
+~ Select `selspecdlg0` `LookByOptionMenu` 1 `Datum Plane`;\
+~ Select `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasNameComp` 1 ` == `;\
+~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` `X`;\
+~ Activate `selspecdlg0` `EvaluateBtn`;\
+~ Activate `selspecdlg0` `ApplyBtn`;\
+~ Activate `selspecdlg0` `CancelButton`;
+
+mapkey FY @MAPKEY_NAMESelects the Plane Y;@MAPKEY_LABEL[FY]Select Plane Y;\
+~ Command `ProCmdMdlTreeSearch` ;\
+~ Select `selspecdlg0` `SelOptionRadio` 1 `Feature`;\
+~ Select `selspecdlg0` `LookByOptionMenu` 1 `Datum Plane`;\
+~ Select `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasNameComp` 1 ` == `;\
+~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` `Y`;\
+~ Activate `selspecdlg0` `EvaluateBtn`;\
+~ Activate `selspecdlg0` `ApplyBtn`;\
+~ Activate `selspecdlg0` `CancelButton`;
+
+mapkey FZ @MAPKEY_NAMESelects the Plane Z;@MAPKEY_LABEL[FZ]Select Plane Z;\
+~ Command `ProCmdMdlTreeSearch` ;\
+~ Select `selspecdlg0` `SelOptionRadio` 1 `Feature`;\
+~ Select `selspecdlg0` `LookByOptionMenu` 1 `Datum Plane`;\
+~ Select `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasNameComp` 1 ` == `;\
+~ Update `selspecdlg0` `ExtRulesLayout.ExtBasicNameLayout.BasicNameList` `Z`;\
+~ Activate `selspecdlg0` `EvaluateBtn`;\
+~ Activate `selspecdlg0` `ApplyBtn`;\
+~ Activate `selspecdlg0` `CancelButton`;
+
 mapkey $F9 @MAPKEY_LABELmultisizenote;\
 ~ Command `ProCmdDtlInsFreeNote` ;\
 @MANUAL_PAUSEPick Location;\
@@ -123,3 +163,5 @@ mapkey $F9 @MAPKEY_LABEL[]PrecisionTol 0.XXX;\
 
 mapkey $F9 @MAPKEY_LABEL[]PrecisionTol 0.XXXX;\
 ~ Command `ProCmdPmaOptDimTolNDigits`  `0.1234`;
+
+
